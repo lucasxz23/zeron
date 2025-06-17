@@ -1,0 +1,342 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    position: 0;
+    box-sizing: border-box;
+
+
+
+}
+
+@font-face {
+    font-family: "poppins";
+    src: url(./font/Poppins-Bold.ttf);
+
+    font-family: "dynapuff";
+    src: url(./font/DynaPuff-VariableFont_wdth\,wght.ttf);
+}
+
+
+body {
+    background-color: #EF9022;
+
+}
+
+.logo {
+    margin-top: 40px;
+}
+
+.dog {
+    display: flex;
+    font-family: "poppins", regular;
+    margin: 20px;
+    color: white;
+    text-align: left;
+}
+
+.dog p {
+    font-size: 40px;
+    margin: 160px;
+}
+
+.menu {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 30px;
+    background-color: darkred;
+    height: 120px;
+}
+
+
+
+
+
+.search-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    /* Largura da barra de pesquisa */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    /* Arredondamento das bordas */
+    padding: 5px;
+
+}
+
+.search-input {
+    flex-grow: 1;
+    /* Permite que o input cresça para preencher o espaço */
+    padding: 8px 10px;
+    /* Espaçamento interno do input */
+    border: none;
+    outline: none;
+    /* Remove o contorno ao focar */
+    font-size: 16px;
+    background-color: transparent;
+    /* Fundo transparente */
+}
+
+.search-button {
+    padding: 8px 15px;
+    /* Espaçamento interno do botão */
+    background-color: #f1991d;
+    /* Cor de fundo do botão */
+    color: white;
+    border: none;
+    cursor: pointer;
+    /* Muda o cursor para mão ao passar por cima */
+    border-radius: 5px;
+    /* Arredondamento das bordas */
+    font-size: 16px;
+    outline: none;
+    /* Remove o contorno ao focar */
+
+}
+
+.search-button:hover {
+    background-color: #3e8e41;
+    /* Cor de fundo ao passar por cima */
+}
+
+
+
+.menu-search-container {
+    position: relative;
+    left: 500px;
+    bottom: 25px;
+
+}
+
+.nav a {
+    text-decoration: none;
+    font-size: 25px;
+    font-family: "poppins", regular;
+    color: white;
+
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-around;
+    /* Espaço entre os cards */
+    padding: 20px;
+}
+
+.card {
+    width: 250px;
+    /* Largura inicial dos cards */
+    height: 350px;
+    /* Altura inicial dos cards */
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 15px;
+    text-align: center;
+    transition: transform 0.3s ease;
+    /* Transição suave para o aumento */
+}
+
+.card:hover {
+    transform: scale(1.05);
+    /* Aumenta o card em 5% ao passar o mouse */
+}
+
+.card img {
+    width: 100%;
+    height: 250px;
+    /* Altura da imagem */
+    object-fit: cover;
+    /* Ajusta a imagem para preencher o espaço */
+    border-radius: 8px;
+
+}
+
+.card h3 {
+    margin-top: 10px;
+    font-size: 1.2em;
+}
+
+.card p {
+    font-size: 0.9em;
+    margin-bottom: 10px;
+}
+
+.titulo {
+    display: flex;
+    justify-content: center;
+    width: 100px;
+    font-size: 35px;
+    background-color: #9B2B09;
+    color: white;
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-family: "poppins", regular;
+
+
+
+
+
+}
+
+.comentarios {
+    display: flex;
+    justify-content: center;
+    width: 100px;
+    font-size: 35px;
+    background-color: #9B2B09;
+    color: white;
+    width: 100%;
+    margin-top: 50px;
+    font-family: "poppins", regular;
+}
+
+
+
+.a {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    top: 40px;
+
+}
+
+
+
+
+
+
+
+.dog h1 {
+    color: white;
+
+    display: flex;
+    font-size: 100px;
+
+}
+
+.pessoas1 p {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 100px;
+    font-size: 30px;
+    color: white;
+
+}
+
+.pessoas2 p {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 100px;
+    font-size: 30px;
+    color: white;
+
+}
+
+
+
+.pessoas {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 100px;
+    font-size: 30px;
+    color: white;
+
+
+}
+
+
+.pessoas img {
+    position: relative;
+    right: 20px;
+}
+
+
+.redes {
+    padding: 40px;
+    display: flex;
+    justify-content: space-around;
+
+    align-items: start;
+    width: 100%;
+    height: 150px;
+
+}
+
+.newsletter {
+    display: flex;
+    justify-content: center;
+
+}
+
+.pfooter {
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.zeron {
+    font-size: 100px;
+    margin-left: 250px;
+    position: relative;
+    top: 100px;
+    color: white;
+    font-family: "dynapuff", regular;
+}
+
+.chat {
+    display: flex;
+}
+
+#text-area-footer {
+    width: 600px;
+    height: 80px;
+}
+
+.chat {
+    display: flex;
+}
+
+.next {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    right: 200px;
+
+}
+
+.pfooter {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    right: 50px;
+
+
+}
+
+.redes {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+
+}
+
+
+footer {
+    background-color: #9B2B09;
+    display: flex;
+    gap: 100px;
+
+}
+
+.icones {
+    display: flex;
+    justify-content: space-between;
+}
