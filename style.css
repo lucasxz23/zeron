@@ -307,6 +307,7 @@ body {
     flex-direction: column;
     position: relative;
     right: 200px;
+    color: white;
 
 }
 
@@ -324,7 +325,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-
+color: white;
 
 }
 
