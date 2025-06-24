@@ -8,6 +8,15 @@
 
 }
 
+:root {
+    --branco: #FFFFFF;
+    --preto: #000000;
+
+    --fundo-site: #EF9022;
+    --vinho: darkred;
+}
+
+
 @font-face {
     font-family: "poppins";
     src: url(./font/Poppins-Bold.ttf);
@@ -257,16 +266,6 @@ body {
 }
 
 
-.redes {
-    padding: 40px;
-    display: flex;
-    justify-content: space-around;
-
-    align-items: start;
-    width: 100%;
-    height: 150px;
-
-}
 
 .newsletter {
     display: flex;
@@ -277,7 +276,11 @@ body {
 .pfooter {
     display: flex;
     flex-direction: column;
-    color: white;
+    color: rgb(255, 255, 255);
+    justify-content: space-around;
+    gap: 20px;
+    margin-right: 40px;
+    font-size: 20px;
 }
 
 .zeron {
@@ -306,38 +309,48 @@ body {
     display: flex;
     flex-direction: column;
     position: relative;
-    right: 200px;
-    color: white;
+margin-top: 20px;
+    right: 300px;
+    color: rgb(255, 255, 255);
+    gap: 20px;
 
 }
 
-.pfooter {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    position: relative;
-    right: 50px;
 
-
-}
 
 .redes {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-color: white;
+    color: white;
+    padding: 40px;
 
+    align-items: start;
+    width: 100%;
+    height: 150px;
+
+}
+
+.redes p {
+    display: flex;
+    position: relative;
+    top: 50px;
 }
 
 
 footer {
     background-color: #9B2B09;
     display: flex;
-    gap: 100px;
+
+
+    height: 220px;
 
 }
 
 .icones {
     display: flex;
     justify-content: space-between;
+    gap: 40px;
+
+
 }
